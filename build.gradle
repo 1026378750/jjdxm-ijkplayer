@@ -32,11 +32,12 @@ android {
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
     defaultConfig {
-        minSdkVersion 23
+        minSdkVersion 9
         targetSdkVersion 28
         versionCode 1
-        versionName "2.0.1"
-    }
+        versionName "1.0.0"
+    }    
+    
     buildTypes {
         release {
             minifyEnabled false
@@ -50,7 +51,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     implementation 'tv.danmaku.ijk.media:ijkplayer-java:0.6.0'
     implementation 'com.dou361.ijkplayer-armv7a:jjdxm-ijkplayer-armv7a:1.0.0'
-    implementation rootProject.ext.jjdxm_v7
+    implementation 'com.android.support:appcompat-v7:23.3.0'
 }
 
 //apply from: 'https://raw.githubusercontent.com/jjdxmashl/jjdxm_ecodingprocess/master/bulidlib.gradle'
