@@ -29,14 +29,13 @@ ext {
 }
 
 android {
-    compileSdkVersion rootProject.ext.compileSdkVersion
-    buildToolsVersion rootProject.ext.buildToolsVersion
-
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
     defaultConfig {
-        minSdkVersion rootProject.ext.jjdxm_minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode rootProject.ext.jjdxm_versionCode
-        versionName rootProject.ext.jjdxm_versionName
+        minSdkVersion 23
+        targetSdkVersion 28
+        versionCode 1
+        versionName "2.0.1"
     }
     buildTypes {
         release {
